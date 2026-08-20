@@ -119,7 +119,7 @@ export const properties = [
     bathrooms: "2",
     video_url: "/media/videos/fregim.mp4",
     hero_image: "/media/fregim/01.webp",
-    gallery("fregim", 39),
+    gallery: gallery("fregim", 39),
     map_query: "Rua das Abrunheiras 206, 4600-566 Fregim, Amarante, Portugal",
     whatsapp: "351922013541",
     instagram: "@amarante.villas",
