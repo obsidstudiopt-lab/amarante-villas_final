@@ -1,0 +1,14 @@
+AMARANTE VILLAS — CLOUDFLARE PAGES
+
+Este projeto foi convertido para Vite para eliminar CRACO, aliases @/ e os conflitos AJV/date-fns do projeto original.
+
+Configuração Cloudflare Pages:
+- Framework preset: None (ou Vite, se aparecer)
+- Root directory: vazio
+- Build command: npm install && npm run build
+- Build output directory: dist
+
+Se a variável SKIP_DEPENDENCY_INSTALL=1 continuar no Cloudflare, pode mantê-la porque o comando acima executa npm install explicitamente.
+Se a remover, pode usar apenas: npm run build
+
+O ficheiro public/_redirects garante que as rotas /propriedade/... funcionam ao atualizar a página.
