@@ -1,4 +1,8 @@
-const gallery = (slug) => Array.from({ length: 20 }, (_, i) => `/media/${slug}/${String(i + 1).padStart(2, "0")}.webp`);
+const gallery = (slug, count) =>
+  Array.from(
+    { length: count },
+    (_, i) => `/media/${slug}/${String(i + 1).padStart(2, "0")}.webp`
+  );
 
 export const properties = [
   {
@@ -16,7 +20,7 @@ export const properties = [
     bathrooms: "4",
     video_url: "/media/videos/aboim.mp4",
     hero_image: "/media/aboim/20.webp",
-    gallery: gallery("aboim"),
+    gallery: gallery("aboim", 93),
     map_query: "Amarante, Portugal",
     whatsapp: "351922013541",
     instagram: "@amarante.villas",
@@ -115,7 +119,7 @@ export const properties = [
     bathrooms: "2",
     video_url: "/media/videos/fregim.mp4",
     hero_image: "/media/fregim/01.webp",
-    gallery: gallery("fregim"),
+    gallery("fregim", 39),
     map_query: "Rua das Abrunheiras 206, 4600-566 Fregim, Amarante, Portugal",
     whatsapp: "351922013541",
     instagram: "@amarante.villas",
