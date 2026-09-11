@@ -15,7 +15,7 @@ export const properties = [
     tagline_en: "Room to gather, time to stay",
     description_pt: "Uma villa de dois pisos pensada para famílias e grupos, onde os espaços amplos, a piscina e as zonas exteriores criam o cenário ideal para descansar, conviver e aproveitar Amarante sem pressa.",
     description_en: "A two-storey villa designed for families and groups, where generous interiors, the pool and outdoor areas create the perfect setting to rest, gather and enjoy Amarante at an unhurried pace.",
-    guests: "12",
+    guests: "13",
     bedrooms: "6",
     bathrooms: "4",
     video_url: "/media/videos/aboim.mp4",
@@ -84,8 +84,8 @@ export const properties = [
       {
         title_pt: "Para estar juntos",
         title_en: "Made for gathering",
-        body_pt: "Capacidade para 12 pessoas e vários ambientes para partilhar refeições, conversas e dias inteiros sem pressa.",
-        body_en: "Space for up to 12 guests, with several settings for shared meals, long conversations and slow days together.",
+        body_pt: "Capacidade para 13 pessoas e vários ambientes para partilhar refeições, conversas e dias inteiros sem pressa.",
+        body_en: "Space for up to 13 guests, with several settings for shared meals, long conversations and slow days together.",
       },
       {
         title_pt: "Dentro e fora",
